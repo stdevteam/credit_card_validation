@@ -1,6 +1,6 @@
 import fire
 
-from src.utils import CreditCard
+from utils import CreditCard
 
 
 class BankCards:

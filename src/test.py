@@ -1,6 +1,6 @@
 import unittest
 
-from src.main import CreditCard
+from main import CreditCard
 
 
 class TestCreditCard(unittest.TestCase):
@@ -20,6 +20,6 @@ class TestCreditCard(unittest.TestCase):
             credit_card = CreditCard(invalid_input)
             self.assertFalse(credit_card.is_valid())
             print("Invalid:", credit_card.is_valid(), credit_card.card_number)
-
+print(__name__)
 if __name__ == '__main__':
     unittest.main()
