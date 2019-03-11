@@ -18,7 +18,7 @@ pip install -r requirements.txt
 Project Description 
 -----------------
 
-A validate credit cards
+Validate credit cards
 
 <ol>
 <li>It must start with a 4, 5 or 6.</li>
