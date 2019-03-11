@@ -29,7 +29,7 @@ class BankCards:
     def check_card_number(self, num):
         self._input_lins_count = 1
         self.card_numbers.append(num)
-        self.validate_inputs()
+        se
 
 if __name__ == '__main__':
     fire.Fire(BankCards)
