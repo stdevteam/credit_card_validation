@@ -35,9 +35,9 @@ CLI commands
 -----------------
 
 To check one card number:
-
-$ python main.py check_card_number CARD_NUM
-
+```bash
+python main.py check_card_number CARD_NUM
+```
 To check several card numbers, 
 you need to set the number of cards and then enter the numbers
 
