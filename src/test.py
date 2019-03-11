@@ -1,5 +1,6 @@
 import unittest
-from main import CreditCard
+
+from src.main import CreditCard
 
 
 class TestCreditCard(unittest.TestCase):
